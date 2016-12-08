@@ -214,8 +214,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-2 p{
 	font-weight: 100;
 	font-family: Alef;
-	line-height: 48px;
 	font-size: 20.000001907348633px;
+	line-height: 48px;
 }
 #bloc-4 h5{
 	line-height: 24px;
