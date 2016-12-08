@@ -16,7 +16,7 @@
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
-    <title>关于 Titan Studio ™</title>
+    <title>ATKit2</title>
 
     
 <!-- Google Analytics -->
@@ -110,101 +110,143 @@
 </div>
 <!-- bloc-0 END -->
 
-<!-- bloc-43 -->
-<div class="bloc l-bloc bgc-white" id="bloc-43">
-	<div class="container bloc-sm">
+<!-- bloc-32 -->
+<div class="bloc b-parallax bgc-white l-bloc" id="bloc-32">
+	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-6">
+				<h1 class="mg-md text-justify tc-dodger-blue">
+					ATKit「iOS开发框架」
+				</h1>
+				<h3 class="mg-sm  text-justify">
+					<strong>系统类的功能扩展和一些常用的控件封装</strong>
+				</h3>
+				<h5 class="mg-md  text-justify">
+					这个框架提供了一些系统类的功能扩展和一些常用的控件封装（轮播图、侧滑TabBar、抽屉视图、颜色管理等）<br>
+				</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="text-center">
+							<a class="btn btn-lg btn-block btn-mantis" onclick="scrollToTarget('#bloc-34')" target="_blank"><span class="feather-icon icon-inbox icon-spacer icon-white"></span>安装</a>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="text-center">
+							<a href="https://github.com/AesirTitan/ATKit" class="btn btn-lg btn-block btn-dodger-blue" target="_blank"><span class="fa fa-github icon-spacer icon-white"></span>源码</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-43 END -->
+<!-- bloc-32 END -->
 
-<!-- bloc-44 -->
-<div class="bloc b-parallax bgc-white l-bloc" id="bloc-44">
+<!-- bloc-33 -->
+<div class="bloc b-parallax bgc-white l-bloc" id="bloc-33">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
 				<h2 class="mg-md tc-dodger-blue">
-					关于 Titan Studio ™
+					框架简介
+				</h2>
+				<h3 class="mg-sm  text-justify">
+					<strong>系统类的功能扩展和一些常用的控件封装</strong>
+				</h3>
+				<h5 class="mg-md  text-justify">
+					这个框架提供了一些系统类的功能扩展和一些常用的控件封装（轮播图、侧滑TabBar、抽屉视图、颜色管理等）<br>
+				</h5>
+				<h6 class="mg-sm  tc-dodger-blue">
+					适用平台：iOS
+				</h6>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-33 END -->
+
+<!-- bloc-34 -->
+<div class="bloc b-parallax bgc-white l-bloc" id="bloc-34">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="mg-md tc-dodger-blue">
+					安装方式
 				</h2>
 				<h5 class="mg-md  text-justify">
-					Titan Studio 是非营利性团队，宗旨是交流学术、扩展人脉、享受生活。<br>本站并不以盈利为目的，项目分类中的项目均为开源项目。 <br>应用下载分类中的所有软件均来源于网络<a class="ltc-dodger-blue" href="http://xclient.info" target="_blank">@xclient.info</a>、<a class="ltc-dodger-blue" href="http://soft.macx.cn/index.html" target="_blank">@macx</a>、<a class="ltc-dodger-blue" href="http://msdn.itellyou.cn" target="_blank">@MSDN</a>，旨在分享Windows和macOS平台的优秀应用，并为大家带来更好的下载体验。 <br>如果本站内容对您的权利造成了影响，请发邮件至ayan.study@outlook.com。我们会在第一时间将涉及版权的内容进行删除。<br>
+					推荐使用CocoaPods方式导入。<br>
+				</h5>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="panel bgc-cosmic-latte">
+							<div class="panel-heading">
+								<h4 class="text-left mg-sm tc-dodger-blue">
+									Pod 'ATKit'
+								</h4>
+							</div>
+							<div class="panel-body">
+								<p class="text-justify ">
+									1. 在Podfile中添加 pod 'ATKit' 。 <br>2. 执行 pod install 或者 pod update 。 <br>3. 导入头文件 &lt;ATKit/ATKit.h&gt; 。
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="panel bgc-cosmic-latte">
+							<div class="panel-heading">
+								<h4 class="text-left mg-sm tc-dodger-blue">
+									静态库方式
+								</h4>
+							</div>
+							<div class="panel-body">
+								<p class=" text-justify">
+									1. 下载所有源码。 <br>2. 把 ATKit/Products/ATKit.framework 添加到项目中。 <br>3. 如果项目中第一次使用静态库，需要在target的Build Setting中搜索Other Linker Flags为Other Linker Flags添加-ObjC 。 <br>4. 导入头文件 &lt;ATKit/ATKit.h&gt; 。<br>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="panel bgc-cosmic-latte">
+							<div class="panel-heading">
+								<h4 class="text-left mg-sm tc-dodger-blue">
+									手动导入方式
+								</h4>
+							</div>
+							<div class="panel-body">
+								<p class=" text-justify">
+									1. 下载所有源码。 <br>2. 删除 ATKit 文件夹下的 Info.plist 文件，并把 ATKit 文件夹所有源码拖入项目中。 <br>3. 导入头文件 "ATKit.h" 。<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-34 END -->
+
+<!-- bloc-35 -->
+<div class="bloc b-parallax bgc-white l-bloc" id="bloc-35">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="mg-md tc-dodger-blue">
+					模块文档
+				</h2>
+				<h5 class="mg-sm  text-justify">
+					<a href="https://github.com/AesirTitan/ATKit">点击转至GitHub页面查看文档。</a><br>
 				</h5>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-44 END -->
+<!-- bloc-35 END -->
 
-<!-- bloc-45 -->
-<div class="bloc b-parallax bgc-white l-bloc" id="bloc-45">
-	<div class="container bloc-md">
-		<div class="row">
-			<div class="col-sm-12">
-				<h2 class="mg-md tc-dodger-blue">
-					加入我们
-				</h2>
-				<h5 class="mg-md  text-justify">
-					如果你是20-30岁的新一代年轻人，关注科技、关注艺术、热爱生活，具有一技之长并乐于分享，欢迎加入我们。<br>团队GitHub主页: <a class="ltc-dodger-blue" href="https://github.com/TitanStudio" target="_blank">https://github.com/TitanStudio</a><br>或发Email至: ayan.study@outlook.com<br>
-				</h5>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-45 END -->
-
-<!-- bloc-46 -->
-<div class="bloc b-parallax bgc-white l-bloc" id="bloc-46">
-	<div class="container bloc-md">
-		<div class="row">
-			<div class="col-sm-12">
-				<h2 class="mg-md tc-dodger-blue">
-					关注我们
-				</h2>
-				<h5 class="mg-md  text-justify">
-					通过以下的GitHub、简书等关注开发团队
-				</h5>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-46 END -->
-
-<!-- bloc-47 -->
-<div class="bloc bgc-white l-bloc" id="bloc-47">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-xs-12 col-md-8 col-md-offset-2">
-				<div class="col-sm-3">
-					<div class="text-center">
-						<a class="social-lg" href="https://github.com/AesirTitan" target="_blank"><span class="fa fa-github icon-lg animated swing-hvr icon-dodger-blue"></span></a>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="text-center">
-						<a class="social-lg" href="http://www.jianshu.com/users/8a50e44f862a/latest_articles" target="_blank"><span class="fa fa-rss icon-lg animated swing-hvr icon-dodger-blue"></span></a>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="text-center">
-						<span class="ion ion-social-instagram-outline icon-lg animated swing-hvr"></span>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="text-center">
-						<span class="fa fa-twitter icon-lg animated swing-hvr"></span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-47 END -->
-
-<!-- bloc-48 -->
-<div class="bloc bgc-white l-bloc" id="bloc-48">
+<!-- bloc-36 -->
+<div class="bloc bgc-white l-bloc" id="bloc-36">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
@@ -212,7 +254,7 @@
 		</div>
 	</div>
 </div>
-<!-- bloc-48 END -->
+<!-- bloc-36 END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
