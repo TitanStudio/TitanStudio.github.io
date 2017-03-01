@@ -200,14 +200,17 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-9 h5{
 	line-height: 24px;
 }
-#bloc-10 h4{
+#bloc-10 h5{
+	line-height: 24px;
+}
+#bloc-11 h4{
 	line-height: 28px;
 }
-#bloc-10 h5{
+#bloc-11 h5{
 	font-size: 14px;
 	line-height: 22px;
 }
-#bloc-10 h5{
+#bloc-11 h5{
 	line-height: 24px;
 }
 
@@ -587,14 +590,14 @@ h3{
 
 /* Background colour styles */
 
-.bgc-dodger-blue{
-	background-color:#2CA3FF;
+.bgc-dark-pastel-blue{
+	background-color:#7CA1D6;
 }
 .bgc-white{
 	background-color:#ffffff;
 }
-.bgc-dark-pastel-blue{
-	background-color:#7CA1D6;
+.bgc-dodger-blue{
+	background-color:#2CA3FF;
 }
 /* Text colour styles */
 
@@ -622,9 +625,18 @@ h3{
 .ltc-dark-pastel-blue:hover{
 	color:#6381ab!important;
 }
+.ltc-carmine-pink{
+	color:#F05153!important;
+}
+.ltc-carmine-pink:hover{
+	color:#c04142!important;
+}
 
 /* Bloc image backgrounds */
 
+.bg-mountains-italy{
+	background-image:url("img/mountains-italy.jpg");
+}
 .bg-mountains-italy{
 	background-image:url("img/mountains-italy.jpg");
 }
